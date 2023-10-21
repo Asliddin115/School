@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="about.css">
+    <title>About page</title>
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                Группа №ITC011-46
+            </div>
+            <div class="sidebar-avatar">
+                <img src="./img/avatar.webp" alt="">
+                <div>
+                    <h1 class="sidebar-avatar-name">Asliddin</h1>
+                    <p>Coding</p>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <a href="index.html">Home</a>
+                <a href="teachers.html">Teachers</a>
+                <a href="students.html">Students</a>
+                <a class="active" href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-navbar">
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="main-navbar-user">
+                    <span class="date">24.08.2023 18:00</span>
+                    <img src="./img/user2.png" alt="">
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="about_us_main">
+                    <div class="about_us">
+                        <h1 class="about_title">Biz Haqimizda</h1>
+                        <h3 class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, illo
+                            voluptatem? Qui officiis adipisci error dolor perspiciatis rem autem harum esse, eaque,
+                            ullam
+                            doloribus placeat magnam totam molestiae amet.</h3>
+                        <button class="button2">
+                            Jonatish
+                        </button>
+                    </div>
+                    <div class="about_img">
+                        <img src="img/about.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        const toggle = document.querySelector(".toggle")
+        const nav = document.querySelector(".sidebar")
+
+        toggle.addEventListener("click", function () {
+            nav.classList.toggle("sidebar-active")
+        })
+    </script>
+
+    <script src="./js/date.js"></script>
+</body>
+
+</html>
